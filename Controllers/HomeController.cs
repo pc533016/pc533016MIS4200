@@ -15,14 +15,14 @@ namespace pc533016MIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Patrick Crago's Professional Bio.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Please feel free to contact me.";
 
             return View();
         }
