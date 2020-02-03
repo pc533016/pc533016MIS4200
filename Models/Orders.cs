@@ -17,8 +17,8 @@ namespace pc533016MIS4200.Models
         //Product is on the "one" side of a one-to-many relationship with OrderDetail
         //we indicate that with an ICollection
 
-        public int customerID { get; set; }
 
+        public int customerID { get; set; }
         public virtual Customer Customer { get; set; }
     }
 }

@@ -23,5 +23,12 @@ namespace pc533016MIS4200.Models
         // (the object name and the local name do not have to be the same)
         public ICollection<Orders> Orders { get; set; }
 
+        public string fullName {
+            get
+            {
+                return lastName + ", " + firstName;
+            }
+        }
+
     }
 }
