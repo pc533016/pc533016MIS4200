@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using pc533016MIS4200.Models;
 
     public class Products
     {
-        public int productID { get; set; }
+        [Key]
+        public int productsID { get; set; }
         public string description { get; set; }
         public decimal unitCost { get; set; }
 

@@ -18,8 +18,9 @@ namespace pc533016MIS4200.DAL
         // the value outside should generally be the plural of the class name
         // and is the name used to reference the entity in code
         public DbSet<Orders> Orders { get; set; }
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public object Customer { get; internal set; }
     }
 }
