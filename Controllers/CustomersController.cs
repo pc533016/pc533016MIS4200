@@ -21,10 +21,10 @@ namespace pc533016MIS4200.Controllers
             return View(db.Customers.ToList());
         }
 
-        private ActionResult View(object p)
-        {
-            throw new NotImplementedException();
-        }
+        //private ActionResult View(object p)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         // GET: Customers/Details/5
         public ActionResult Details(int? id)

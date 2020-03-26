@@ -9,6 +9,7 @@ using pc533016MIS4200.Models;
     {
         [Key]
         public int productsID { get; set; }
+        public int supplierID { get; set; }
         public string description { get; set; }
         public decimal unitCost { get; set; }
 
