@@ -10,7 +10,14 @@ using pc533016MIS4200.Models;
         [Key]
         public int productsID { get; set; }
         public int supplierID { get; set; }
-        public string description { get; set; }
+
+    [Display(Name = "Description")]
+    [Required(ErrorMessage = "Description field is required")]
+    public string description { get; set; }
+
+    [Display(Name = "Unit cost")]
+    [Required]
+    [DataType(DataType.Currency)]
         public decimal unitCost { get; set; }
 
         // add any other fields as appropriate
